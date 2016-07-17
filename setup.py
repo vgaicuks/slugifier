@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='slugifier',
-      version='0.0.3',
+      version='0.0.5',
       description='Slugify utils for django projects.',
       long_description='Slugify utils for django projects.',
       author=u'Vitālijs Gaičuks',
@@ -12,8 +12,11 @@ setup(name='slugifier',
       url='https://github.com/vgaicuks/slugifier',
       download_url='https://github.com/vgaicuks/slugifier/tarball/0.0.3',
       include_package_data=True,
+      requires=['django(>=1.7)', 'Unidecode(>=0.4.19)'],
+      install_requires=[
+          'Unidecode',
+      ],
       zip_safe=False,
-      requires=['django(>=1.7)', 'unidecode(>=0.04.19)'],
       classifiers=['Development Status :: 5 - Production/Stable',
                    'Environment :: Web Environment',
                    'Framework :: Django',
