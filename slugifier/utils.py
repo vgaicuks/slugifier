@@ -13,7 +13,7 @@ class UploadToSlugify(object):
 
     def __call__(self, instance, filename):
         name, ext = os.path.splitext(filename)
-        f = slugify(unidecode(name)) + ext
+        f = slugify(unidecode(name).decode('utf-8')) + ext
         return os.path.join(self.path, f)
 
     def normalizy(self, name):
