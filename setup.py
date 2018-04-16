@@ -3,14 +3,14 @@
 from setuptools import setup
 
 setup(name='slugifier',
-      version='0.0.6',
+      version='0.0.7',
       description='Slugify utils for django projects.',
       long_description='Slugify utils for django projects.',
       author=u'Vitālijs Gaičuks',
       author_email='vitalijs.gaicuks@gmail.com',
       packages=['slugifier'],
       url='https://github.com/vgaicuks/slugifier',
-      download_url='https://github.com/vgaicuks/slugifier/tarball/0.0.3',
+      download_url='https://github.com/vgaicuks/slugifier/tarball/0.0.7',
       include_package_data=True,
       requires=['django(>=1.7)', 'Unidecode(>=0.4.19)'],
       install_requires=[
@@ -24,6 +24,6 @@ setup(name='slugifier',
                    'License :: OSI Approved :: BSD License',
                    'Natural Language :: English',
                    'Operating System :: MacOS :: MacOS X',
-                   'Programming Language :: Python :: 2.7',
+                   'Programming Language :: Python :: 3.6',
                    'Topic :: Utilities'],
       license='BSD License')
