@@ -3,3 +3,4 @@
 .pypirc
 dist/
 slugifier.egg-info/
+commands.txt
