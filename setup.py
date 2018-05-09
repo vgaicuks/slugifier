@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='slugifier',
-      version='3.0.0',
+      version='3.0.1',
       description='Slugify utils for django projects.',
       long_description='Slugify utils for django projects.',
       author=u'Vitālijs Gaičuks',
